@@ -1,0 +1,148 @@
+<body>
+
+  <h id="tittle"><img src="https://image.ibb.co/jsJZbx/Tittle.gif" alt="Myther" height=600px></h>
+
+  <button id="play">
+PLAY
+</button>
+
+  <p id="char">
+    Are you a boy or a girl?
+  </p>
+
+  <button id="boy">
+<img src="https://image.ibb.co/bGLSeH/Boy.gif" alt="Boy" height="150px" width="150px">
+</button>
+
+  <button id="girl">
+<img src="https://image.ibb.co/hgjOmx/Girl.gif" alt="Girl" height="150px" width="150px">
+</button>
+
+  <div id="lumber">
+    <img src="https://image.ibb.co/nPYiKH/Lumber.gif" alt="Lumber" height="300px">
+  </div>
+
+  <p id="L1">
+    Oh, you're up! You have been lying here for days.
+  </p>
+
+  <p id="L2">
+    My name is <input type="string" id="name"><br>
+  </p>
+
+  <button id="confirmName">
+Really?
+</button>
+
+  <p id="L3"></p>
+
+  <button id="A3">
+  Well, how did I get here?
+  </button>
+
+  <p id="L4">
+    I have no idea my friend, but all I know is that you must get out of here as soon as possible before it gets dark!
+  </p>
+
+  <button id="A4-1">
+  But why?
+  </button>
+
+  <p id="L4-1">
+    Well, this is a cursed forest, it's occupied by monsters and I don't think you would want to come across one.
+  </p>
+
+  <button id="A4-2">
+  I'm an adventurer, I'm not afraid of the dark!
+  </button>
+
+  <p id="L4-2">
+    If that so, then here is my good axe, take it myfriend.
+  </p>
+
+  <div id="axe">
+    <img src="https://image.ibb.co/duskZH/Woodcutter_s_Axe.gif" alt="axe" height="200px" width="200px">
+  </div>
+
+  <button id="A4-3">
+  Take "Woodcutter's Axe"
+  </button>
+
+  <p id="L5">
+    Remember, always keep watch, the forest will try to devour your soul over time!
+  </p>
+
+  <button id="shop">
+  SHOP
+  </button>
+
+  <button id="L5-1">
+  Walk away
+  </button>
+
+  <p id="L6">
+    When you're walking, you hear movement in a bush nearby...
+  </p>
+
+  <div id="bush">
+    <img src="https://image.ibb.co/iY2eBx/Bush.gif" alt="Bush" height="500px" width="500px">
+  </div>
+
+  <button id="A6-1">
+  What is that?
+  </button>
+
+  <div id="wolf">
+    <img src="https://image.ibb.co/eXBR9H/Werewolf.gif" alt="" height="450" width="450">
+  </div>
+  
+  <div id="playHP">
+  YOUR HP:<div id="displayPlayer"></div>
+  </div>
+
+  <div id="hitBox">
+    <img src="https://image.ibb.co/iy2XGx/Slash.gif" alt="hit" height="200px" width="200px">
+  </div>
+  
+  <div id="dodged">
+  <img src="https://image.ibb.co/eCHPwx/Dodge.gif" alt="dodgedGif" height="150px" width="150px">
+  </div>
+
+  <div id="win">
+    <img src="https://image.ibb.co/mOVD6x/Winn.gif" alt="uWin" height="300px" width="300px">
+  </div>
+
+  <button id="atk">
+  Normal Attack
+  </button>
+
+  <div id="ware">
+  WEREWOLF HP:<div id="displayWolf"></div>
+  </div>
+  
+  <button id='bag'>
+ BAG
+  </button>
+  
+  <div id="goldDisplay"></div>
+
+  <p id="L7">
+
+  </p>
+
+  <p id="L8">
+
+  </p>
+
+  <p id="L9">
+
+  </p>
+
+  <p id="L10">
+
+  </p>
+
+  <p id="L11">
+
+  </p>
+</body>

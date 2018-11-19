@@ -1,0 +1,153 @@
+var playerDodge = 40;
+var name = "";
+var playerHP = 200;
+
+function rng() {
+
+  var randomNum = Math.round(Math.random() * 100);
+  return randomNum;
+}
+
+function goldDrop() {
+var gold = Math.round(Math.random() * 20);
+return gold;
+}
+
+$("#onclick").click(rng)
+
+$("#play").click(function() {
+
+  $("#tittle").fadeOut();
+  $("#play").fadeOut();
+  $("#char").fadeIn();
+  $("#boy").fadeIn();
+  $("#girl").fadeIn();
+
+});
+
+
+
+function onWard() {
+  $("#char").fadeOut();
+  $("#boy").fadeOut();
+  $("#girl").fadeOut();
+  $("#lumber").fadeIn();
+  $("#L1").show();
+  name = prompt("What's your name?");
+  $("#confirmName").fadeIn(3000);
+}
+
+$("#boy").click(onWard);
+$("#girl").click(onWard);
+
+$("#confirmName").click(function() {
+  $("#L1").fadeOut();
+  $("#L2").fadeOut();
+  $("#confirmName").fadeOut();
+  $("#L3").fadeIn();
+  var willie = "I think I met you before, your name is  " + name + " right? Well, nice to see you again, my name is Willie, I'm a lumberjack of this forest."
+  $("#L3").text(willie);
+  $("#A3").show();
+});
+
+$("#A3").click(function() {
+  $("#L3").fadeOut();
+  $("#A3").fadeOut();
+  $("#L4").show();
+  $("#A4-1").fadeIn();
+})
+
+$("#A4-1").click(function() {
+  $("#L4").fadeOut();
+  $("#A4-1").fadeOut();
+  $("#L4-1").show();
+  $("#A4-2").fadeIn();
+})
+
+$("#A4-2").click(function() {
+  $("#L4-1").fadeOut();
+  $("#A4-2").fadeOut();
+  $("#L4-2").show();
+  $("#axe").show();
+  $("#A4-3").show();
+})
+
+$("#A4-3").click(function() {
+  $("#A4-3").hide();
+  $("#L4-2").hide();
+  $("#axe").hide();
+  $("#A4-3").hide();
+  $("#L5").show();
+  $("#L5-1").fadeIn();
+})
+
+$("#L5-1").click(function() {
+  $("#lumber").fadeOut();
+  $("#L5").fadeOut();
+  $("#L5-1").fadeOut();
+  $("#L6").delay(5000).show();
+  $("#bush").fadeIn();
+  $("#A6-1").fadeIn();
+})
+
+$("#A6-1").click(function() {
+  $("#L6").hide();
+  $("#bush").fadeOut();
+  $("#A6-1").fadeOut();
+  $("#wolf").show();
+  $("#atk").show();
+  $("#ware").show();
+  $("#displayWolf").show();
+  $("#displayWolf").text(wolfHP);
+  $("#playHP").show();
+  $("#displayPlayer").show();
+  $("#displayPlayer").text(playerHP);
+});
+
+var wolfDodge = 50;
+var wolfHP = 150;
+var playerAtk = 15;
+$("#atk").click(function() {
+  var randomNum = rng();
+  if (randomNum > wolfDodge) {
+    wolfHP = wolfHP - playerAtk;
+    $("#hitBox").show();
+    setInterval(hitOff, 1000);
+    $("#displayWolf").text(wolfHP);
+    $("#displayPlayer").text(playerHP);
+  } else {
+    wolfHP = wolfHP - 0;
+    $("#dodged").show();
+    setInterval(noDodge, 1000);
+    $("#displayWolf").text(wolfHP);
+    $("#displayPlayer").text(playerHP);
+  }
+  
+  if (wolfHP == 0) {
+    $("#wolf").hide();
+    $("#win").show();
+    setInterval(win, 3000);
+    $("#ware").hide();
+    $("#displayWolf").hide();
+    $("#atk").hide();
+    $("#playHP").hide();
+    $("#displayPlayer").hide();
+    var gold = goldDrop();
+    //$("#bag").show();
+    $("#goldDisplay").text(gold)
+  }
+});
+
+$("bag").click(function() {
+$("goldDisplay").show()
+$("#goldDisplay").text(gold)
+var gold = goldDrop();
+});
+
+function hitOff() {
+$("#hitBox").hide();
+}
+
+function noDodge() {
+$("#dodged").hide();
+}

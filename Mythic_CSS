@@ -1,0 +1,246 @@
+body {
+  background-color: grey;
+}
+
+#tittle {
+  position: absolute;
+  left: 200px;
+}
+
+#play {
+  height: 100px;
+  width: 200px;
+  font-size: 50px;
+  position: absolute;
+  top: 500px;
+  left: 400px;
+}
+
+#char {
+  display: none;
+  font-size: 50px;
+  margin-left: 300px;
+}
+
+#boy {
+  display: none;
+  margin-left: 360px;
+}
+
+#girl {
+  display: none;
+}
+
+#lumber {
+  display: none;
+}
+
+#L1 {
+  display: none;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-top: -200px
+}
+
+#L2 {
+  display: none;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+#confirmName {
+  display: none;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -100px;
+}
+
+#L3 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#A3 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+#L4 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#A4-1 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#L4-1 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#A4-2 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#L4-2 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#A4-3 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#L5 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#L5-1 {
+  display: none;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: -250px;
+}
+
+#L6 {
+  display: none;
+  font-size: 20px;
+}
+
+#A6-1 {
+  display: none;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+
+#displayWolf {
+  display: none;
+}
+
+#L7 {
+  display: none;
+  font-size: 20px;
+}
+
+#L8 {
+  display: none;
+  font-size: 20px;
+}
+
+#L9 {
+  display: none;
+  font-size: 20px;
+}
+
+#L10 {
+  display: none;
+  font-size: 20px;
+}
+
+#L11 {
+  display: none;
+  font-size: 20px;
+}
+
+#bush {
+  display: none;
+  margin-top: -150px;
+}
+
+#shop {
+  display: none;
+}
+
+#wolf {
+  display: none;
+  position: absolute;
+  left: 500px;
+  top: -150px;
+}
+
+#atk {
+  display: none;
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+}
+
+#axe {
+  display: none;
+  margin-top: -20px;
+  margin-left: -10px
+}
+
+#hitBox {
+  display: none;
+  position: absolute;
+  left: 630px;
+  top: 100px;
+}
+
+#win {
+  display: none;
+  position: absolute;
+  left: 400px;
+  top: 80px;
+}
+
+#dodged {
+  display: none;
+  position: absolute;
+  left: 700px;
+  top: 150px;
+}
+
+#displayPlayer {
+  display: none;
+  font-size: 20px;
+}
+
+#bag {
+  display: none;
+  position: absolute;
+}
+
+#goldDisplay {
+  display: none;
+  position: absolute;
+}
+
+#playHP {
+  display: none;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+#ware {
+  display: none;
+  position: absolute;
+  left: 500px;
+}
